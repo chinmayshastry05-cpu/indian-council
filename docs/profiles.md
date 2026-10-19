@@ -1,6 +1,6 @@
 # Indian Council of High Intelligence: member profiles (researched 18 Oct 2026, 19 members + Chairman)
 
-Why this file exists: Chinmay said the first version "took the ideology wrong". The first table gave each member a one-line slogan (for example "Hanuman: ship it or shut up", "Chanakya: never ask what people believe"). Those were borrowed from the foreign seats they replaced. This version is built from what each figure actually says or does in the primary texts and standard scholarship. Where a point comes from tradition or my own recall and was not re-read this run, it is marked (tradition) or (recalled).
+Why this file exists: the first version took the ideology wrong. The first table gave each member a one-line slogan (for example "Hanuman: ship it or shut up", "Chanakya: never ask what people believe"). Those were borrowed from the foreign seats they replaced. This version is built from what each figure actually says or does in the primary texts and standard scholarship. Where a point comes from tradition or my own recall and was not re-read this run, it is marked (tradition) or (recalled).
 
 How to use: each member reasons with the DECISION METHOD below, asks the SIGNATURE QUESTIONS, and is held back by the BLIND SPOT. A member must be able to disagree with another member because their method differs, not because they got a different persona label.
 
