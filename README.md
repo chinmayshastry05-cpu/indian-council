@@ -1,5 +1,7 @@
 # The Elite Club
 
+![The Elite Club](assets/logo.jpg)
+
 A structured way to stress-test an idea: 19 Indian thinkers, each reasoning from their own method, with Lord Krishna as Chairman. Adapted from [Council of High Intelligence](https://github.com/0xNyk/council-of-high-intelligence) (MIT). See `ATTRIBUTION.md`.
 
 The point is not to collect nice opinions. Each member asks different questions, and the protocol makes them disagree properly: blind first round, anonymized cross-examination, a dissent quota, a weighted tally, and a Chairman who did not take part in the debate. A genuine split goes back to you, not papered over.
