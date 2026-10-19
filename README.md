@@ -33,18 +33,27 @@ The point is not to collect nice opinions. Each member asks different questions,
 
 Worldviews, signature questions, blind spots and sources: [docs/profiles.md](docs/profiles.md) and `agents/`.
 
+## Install
+
+Claude Code plugin (recommended):
+
+1. Add the marketplace: `/plugin marketplace add chinmayshastry05-cpu/the-elite-club`
+2. Install the plugin: `/plugin install elite-club@elite-club`
+3. Run the council: `/elite-club:council <your problem>`
+
+Manual install instead, which gives you the short `/council` command:
+
+1. `git clone https://github.com/chinmayshastry05-cpu/the-elite-club.git && cd the-elite-club`
+2. `./install.sh`
+3. Restart Claude Code, then run `/council <your problem>`
+
+Any other model: give it `SKILL.md` and the files in `agents/` and ask it to follow the coordinator sequence.
+
+Every step, every flag, update, uninstall and troubleshooting: [docs/INSTALL.md](docs/INSTALL.md).
+
 ## Use
 
-Claude Code plugin (2 lines):
-
-```
-/plugin marketplace add chinmayshastry05-cpu/the-elite-club
-/plugin install elite-club@elite-club
-```
-
-Then run `/elite-club:council <problem>` (plugin skills are namespaced). The examples below use the short `/council` form, which you get with the manual install.
-
-Manual install instead: clone the repo, run `./install.sh`, then `/council <problem>`.
+The examples below use the short `/council` form from the manual install. With the plugin, the command is `/elite-club:council`.
 
 ```
 /council --triad strategy Should I pitch this client now?
@@ -54,7 +63,13 @@ Manual install instead: clone the repo, run `./install.sh`, then `/council <prob
 /council --full What should I build this month?
 ```
 
-Any other model: give it `SKILL.md` and the files in `agents/` and ask it to follow the coordinator sequence.
+| Flag | Effect |
+|---|---|
+| `--full` | All 19 members |
+| `--triad [domain]` | One of 22 named 3-member combinations (list in `SKILL.md`) |
+| `--members a,b,c` | Manual selection (2-11) |
+| `--quick` | 2 fast rounds, short verdict |
+| `--duo` | 2-member dialectic from a polarity pair (no anonymization) |
 
 ## Protocol in brief
 
@@ -73,7 +88,9 @@ SKILL.md                 coordinator instructions
 skills/council/SKILL.md  same file, for Claude Code skill install
 .claude-plugin/          plugin.json + marketplace.json (Claude Code plugin)
 agents/                  19 member files + chairman-krishna.md
+docs/INSTALL.md          full step-by-step install and usage guide
 docs/profiles.md         researched profiles with sources
+demos/verdict-template.md  verdict skeleton
 scripts/validate-roster.py
 install.sh
 ```
