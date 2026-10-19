@@ -1,4 +1,4 @@
-# Indian Council of High Intelligence
+# The Elite Club
 
 A structured way to stress-test an idea: 19 Indian thinkers, each reasoning from their own method, with Lord Krishna as Chairman. Adapted from [Council of High Intelligence](https://github.com/0xNyk/council-of-high-intelligence) (MIT). See `ATTRIBUTION.md`.
 
