@@ -1,0 +1,11 @@
+{
+  "name": "elite-club",
+  "displayName": "The Elite Club",
+  "version": "1.0.0",
+  "description": "A council of 19 Indian thinkers with Lord Krishna as Chairman. Structured deliberation: blind first round, anonymized cross-examination, dissent quota, weighted tally, Chairman's verdict.",
+  "author": { "name": "Chinmay Shastry", "url": "https://github.com/chinmayshastry05-cpu" },
+  "homepage": "https://github.com/chinmayshastry05-cpu/the-elite-club",
+  "repository": "https://github.com/chinmayshastry05-cpu/the-elite-club",
+  "license": "MIT",
+  "keywords": ["council", "decision-making", "agents", "deliberation", "india"]
+}

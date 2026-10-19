@@ -1,0 +1,16 @@
+{
+  "name": "elite-club",
+  "owner": { "name": "Chinmay Shastry", "url": "https://github.com/chinmayshastry05-cpu" },
+  "metadata": { "description": "The Elite Club: a council of 19 Indian thinkers for stress-testing ideas." },
+  "plugins": [
+    {
+      "name": "elite-club",
+      "source": "./",
+      "description": "Convene 19 Indian thinkers plus Chairman Krishna with /elite-club:council. Adapted from Council of High Intelligence (MIT).",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["council", "decision-making", "agents"]
+    }
+  ]
+}

@@ -35,7 +35,16 @@ Worldviews, signature questions, blind spots and sources: [docs/profiles.md](doc
 
 ## Use
 
-Claude Code: run `./install.sh`, then `/council <problem>`.
+Claude Code plugin (2 lines):
+
+```
+/plugin marketplace add chinmayshastry05-cpu/the-elite-club
+/plugin install elite-club@elite-club
+```
+
+Then run `/elite-club:council <problem>` (plugin skills are namespaced). The examples below use the short `/council` form, which you get with the manual install.
+
+Manual install instead: clone the repo, run `./install.sh`, then `/council <problem>`.
 
 ```
 /council --triad strategy Should I pitch this client now?
@@ -62,6 +71,7 @@ Restate gate, then blind Round 1, then anonymized Round 2 (Member A, B, C), then
 ```
 SKILL.md                 coordinator instructions
 skills/council/SKILL.md  same file, for Claude Code skill install
+.claude-plugin/          plugin.json + marketplace.json (Claude Code plugin)
 agents/                  19 member files + chairman-krishna.md
 docs/profiles.md         researched profiles with sources
 scripts/validate-roster.py
